@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the White House</title>
+    <!--Style-->
+    <style>
+        /*Fonts*/
+        @font-face {
+            font-family: Barbassy;
+            src: url(fonts/Barbassy.ttf) format('truetype');
+            font-weight: 100;
+        }
+        /*General*/
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            color: #2a2117;
+        }
+        body {
+            background-image: url("assets/Background.jpg");
+            background-color: #fff5d49a;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+        }
+
+        /*Background*/
+        .image{
+            width: 100%;
+            height: 100vh;
+            background-position: center;
+            background-size: cover;
+        }
+        .image-overlay{
+            margin: 0;
+            width: 100%;
+            height: 140vh;
+            background-color: #fff5d49a;
+            background-size: cover;
+        }
+        /*Header*/
+        .header p{
+            font-family: 'Barbassy', sans-serif;
+            padding-top: 30px;
+            font-size: 50px;
+        }
+        h3 {
+            font-family: 'Barbassy', sans-serif;
+            font-size: 70px;
+            font-weight: 100;
+        }
+        .header1 h3 {
+            font-size: 100px;
+        }
+        /*White House Image*/
+        .White-House-Image{
+            width: 300px;
+            margin: 20px 0;
+            border-radius: 50% ;
+            border: solid white 5px;
+        }
+        .flag {
+            margin-left: 40px;
+            margin-right: 40px;
+            width: 200px;
+            height: 100px;
+            margin-bottom: 70px;
+        }
+        /*Links*/
+        .links {
+            margin-top: 30px;
+        }
+        .links a {
+            display: block;
+            font-size: 25px;
+            margin: 5px 0;
+            color: rgb(0, 0, 211);
+            font-weight: 600;
+        }
+        /*Content*/
+        .content {
+            margin-top: 40px;
+        }
+        .content strong {
+            color: rgb(0, 0, 211);
+            text-decoration: underline;
+            font-size: 20px;
+        }
+        .content div {
+            display: inline-block;
+            width: 45%;
+            text-align: center;
+            vertical-align: top;
+            margin: 20px;
+        }
+        .content img {
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+            vertical-align: middle;
+            margin-right: 10px; 
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!--Backgroun Image-->
+    <div class="image">
+        <!--Color overlay-->
+        <div class="image-overlay">
+            <!-- Header -->
+            <div class="header">
+                <p>Good Evening</p>
+            </div>
+            <!--White House Image-->
+            <div>
+                <img class="flag" src="assets/american-flag.jpg" alt="flag">
+                <img class="White-House-Image" src="assets/White-House.jpg" alt="White House">
+                <img class="flag" src="assets/american-flag.jpg" alt="flag">
+            </div>
+            <!--Header 2-->
+            <h3>Welcome to the</h3>
+            <div class="header1"><h3>White House</h3></div>
+            <!--links-->
+            <div class="links">
+                <a href="#">Older Americans Month</a>
+                <br>
+                <a href="#">Asian Pacific American Heritage Month</a>
+            </div>
+
+            <!---Content-->
+            <div class="content">
+                <div>
+                <img src="assets/icon1.png" alt="Icon">
+                <strong>The President & Vice President:</strong> <br>Their accomplishments, their families, and how to send them electronic mail.
+                </div>
+                <div>
+                    <img src="assets/Test.jpg" alt="Icon">
+                    <strong>Commonly Requested Federal Services:</strong> <br> Direct access to Federal Services
+                </div>
+                <div>
+                    <img src="assets/Test.jpg" alt="Icon">
+                    <strong>Interactive Citizens' Handbook:</strong> <br> Your guide to information about the Federeal government
+                </div>
+                <div>
+                    <img src="assets/Test.jpg" alt="Icon">
+                    <strong>What's New:</strong> <br> What's happening at the White House
+                </div>
+                <div>
+                    <img src="assets/Test.jpg" alt="Icon">
+                    <strong>White House History and Tours:</strong> <br> Past Presidents and First Families, Art in the President's
+                </div>
+                <div>
+                    <img src="assets/Test.jpg" alt="Icon">
+                    <strong>Site News:</strong> <br> Featured sections of our site <br> <strong>-Moment of Remembrance <br> -China Trade Relations Working Group <br> -The Millenuim Council:</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
